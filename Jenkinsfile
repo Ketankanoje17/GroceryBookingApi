@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_REGISTRY_CREDENTIALS = credentials('docker-hub-credentials-id') // Add your Docker Hub credentials ID here
-        DOCKER_IMAGE_NAME = 'your-docker-hub-username/your-docker-image-name'
+        DOCKER_REGISTRY_CREDENTIALS = credentials('ketan3010') // Add your Docker Hub credentials ID here
+        DOCKER_IMAGE_NAME = 'ketankanoje11@gmail.com/your-docker-image-name'
     }
 
     stages {
